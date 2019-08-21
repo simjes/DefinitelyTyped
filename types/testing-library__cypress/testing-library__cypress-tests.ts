@@ -1,45 +1,45 @@
-import Cypress from '@testing-library/cypress'
+/// <reference types="Cypress" />
 
 // getBy*
-Cypress.getByPlaceholderText('foo')
-Cypress.getBySelectText('foo')
-Cypress.getByText('foo')
-Cypress.getByLabelText('foo')
-Cypress.getByAltText('foo')
-Cypress.getByTestId('foo')
-Cypress.getByTitle('foo')
-Cypress.getByDisplayValue('foo')
-Cypress.getByRole('foo')
+cy.getByPlaceholderText('foo');
+cy.getBySelectText('foo');
+cy.getByText('foo');
+cy.getByLabelText('foo');
+cy.getByAltText('foo');
+cy.getByTestId('foo');
+cy.getByTitle('foo');
+cy.getByDisplayValue('foo');
+cy.getByRole('foo');
 
 // getAllBy*
-Cypress.getAllByPlaceholderText('foo')
-Cypress.getAllBySelectText('foo')
-Cypress.getAllByText('foo')
-Cypress.getAllByLabelText('foo')
-Cypress.getAllByAltText('foo')
-Cypress.getAllByTestId('foo')
-Cypress.getAllByTitle('foo')
-Cypress.getAllByDisplayValue('foo')
-Cypress.getAllByRole('foo')
+cy.getAllByPlaceholderText('foo');
+cy.getAllBySelectText('foo');
+cy.getAllByText('foo');
+cy.getAllByLabelText('foo');
+cy.getAllByAltText('foo');
+cy.getAllByTestId('foo');
+cy.getAllByTitle('foo');
+cy.getAllByDisplayValue('foo');
+cy.getAllByRole('foo');
 
 // queryBy*
-Cypress.queryByPlaceholderText('foo')
-Cypress.queryBySelectText('foo')
-Cypress.queryByText('foo')
-Cypress.queryByLabelText('foo')
-Cypress.queryByAltText('foo')
-Cypress.queryByTestId('foo')
-Cypress.queryByTitle('foo')
-Cypress.queryByDisplayValue('foo')
-Cypress.queryByRole('foo')
+cy.queryByPlaceholderText('foo');
+cy.queryBySelectText('foo');
+cy.queryByText('foo');
+cy.queryByLabelText('foo');
+cy.queryByAltText('foo');
+cy.queryByTestId('foo');
+cy.queryByTitle('foo');
+cy.queryByDisplayValue('foo');
+cy.queryByRole('foo');
 
 // queryAllBy*
-Cypress.queryAllByPlaceholderText('foo')
-Cypress.queryAllBySelectText('foo')
-Cypress.queryAllByText('foo')
-Cypress.queryAllByLabelText('foo')
-Cypress.queryAllByAltText('foo')
-Cypress.queryAllByTestId('foo')
-Cypress.queryAllByTitle('foo')
-Cypress.queryAllByDisplayValue('foo')
-Cypress.queryAllByRole('foo')
+cy.queryAllByPlaceholderText('foo');
+cy.queryAllBySelectText('foo');
+cy.queryAllByText('foo');
+cy.queryAllByLabelText('foo');
+cy.queryAllByAltText('foo');
+cy.queryAllByTestId('foo');
+cy.queryAllByTitle('foo');
+cy.queryAllByDisplayValue('foo');
+cy.queryAllByRole('foo');
