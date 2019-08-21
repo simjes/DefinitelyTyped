@@ -157,11 +157,11 @@ declare global {
              * @see https://github.com/testing-library/cypress-testing-library#usage
              * @see https://github.com/testing-library/dom-testing-library#table-of-contents
              */
-            getAllBySelectText(id: Matcher, options?: MatcherOptions): Chainable<HTMLElement[]>;
+            getAllBySelectText(id: Matcher, options?: MatcherOptions): Chainable<JQuery<HTMLElement>>;
             getAllBySelectText<K extends keyof HTMLElementTagNameMap>(
                 id: Matcher,
                 options?: MatcherOptions,
-            ): Chainable<Array<HTMLElementTagNameMap[K]>>;
+            ): Chainable<JQuery<HTMLElementTagNameMap[K]>>;
 
             /**
              * dom-testing-library helpers for Cypress
@@ -225,11 +225,11 @@ declare global {
              * @see https://github.com/testing-library/cypress-testing-library#usage
              * @see https://github.com/testing-library/dom-testing-library#table-of-contents
              */
-            getAllByText(id: Matcher, options?: SelectorMatcherOptions): Chainable<HTMLElement[]>;
+            getAllByText(id: Matcher, options?: SelectorMatcherOptions): Chainable<JQuery<HTMLElement>>;
             getAllByText<K extends keyof HTMLElementTagNameMap>(
                 id: Matcher,
                 options?: SelectorMatcherOptions,
-            ): Chainable<Array<HTMLElementTagNameMap[K]>>;
+            ): Chainable<JQuery<HTMLElementTagNameMap[K]>>;
 
             /**
              * dom-testing-library helpers for Cypress
@@ -293,11 +293,11 @@ declare global {
              * @see https://github.com/testing-library/cypress-testing-library#usage
              * @see https://github.com/testing-library/dom-testing-library#table-of-contents
              */
-            getAllByLabelText(id: Matcher, options?: SelectorMatcherOptions): Chainable<HTMLElement[]>;
+            getAllByLabelText(id: Matcher, options?: SelectorMatcherOptions): Chainable<JQuery<HTMLElement>>;
             getAllByLabelText<K extends keyof HTMLElementTagNameMap>(
                 id: Matcher,
                 options?: SelectorMatcherOptions,
-            ): Chainable<Array<HTMLElementTagNameMap[K]>>;
+            ): Chainable<JQuery<HTMLElementTagNameMap[K]>>;
 
             /**
              * dom-testing-library helpers for Cypress
@@ -361,11 +361,11 @@ declare global {
              * @see https://github.com/testing-library/cypress-testing-library#usage
              * @see https://github.com/testing-library/dom-testing-library#table-of-contents
              */
-            getAllByAltText(id: Matcher, options?: MatcherOptions): Chainable<HTMLElement[]>;
+            getAllByAltText(id: Matcher, options?: MatcherOptions): Chainable<JQuery<HTMLElement>>;
             getAllByAltText<K extends keyof HTMLElementTagNameMap>(
                 id: Matcher,
                 options?: MatcherOptions,
-            ): Chainable<Array<HTMLElementTagNameMap[K]>>;
+            ): Chainable<JQuery<HTMLElementTagNameMap[K]>>;
 
             /**
              * dom-testing-library helpers for Cypress
@@ -429,11 +429,11 @@ declare global {
              * @see https://github.com/testing-library/cypress-testing-library#usage
              * @see https://github.com/testing-library/dom-testing-library#table-of-contents
              */
-            getAllByTestId(id: Matcher, options?: MatcherOptions): Chainable<HTMLElement[]>;
+            getAllByTestId(id: Matcher, options?: MatcherOptions): Chainable<JQuery<HTMLElement>>;
             getAllByTestId<K extends keyof HTMLElementTagNameMap>(
                 id: Matcher,
                 options?: MatcherOptions,
-            ): Chainable<Array<HTMLElementTagNameMap[K]>>;
+            ): Chainable<JQuery<HTMLElementTagNameMap[K]>>;
 
             /**
              * dom-testing-library helpers for Cypress
@@ -497,11 +497,11 @@ declare global {
              * @see https://github.com/testing-library/cypress-testing-library#usage
              * @see https://github.com/testing-library/dom-testing-library#table-of-contents
              */
-            getAllByTitle(id: Matcher, options?: MatcherOptions): Chainable<HTMLElement[]>;
+            getAllByTitle(id: Matcher, options?: MatcherOptions): Chainable<JQuery<HTMLElement>>;
             getAllByTitle<K extends keyof HTMLElementTagNameMap>(
                 id: Matcher,
                 options?: MatcherOptions,
-            ): Chainable<Array<HTMLElementTagNameMap[K]>>;
+            ): Chainable<JQuery<HTMLElementTagNameMap[K]>>;
 
             /**
              * dom-testing-library helpers for Cypress
@@ -565,11 +565,11 @@ declare global {
              * @see https://github.com/testing-library/cypress-testing-library#usage
              * @see https://github.com/testing-library/dom-testing-library#table-of-contents
              */
-            getAllByDisplayValue(id: Matcher, options?: MatcherOptions): Chainable<HTMLElement[]>;
+            getAllByDisplayValue(id: Matcher, options?: MatcherOptions): Chainable<JQuery<HTMLElement>>;
             getAllByDisplayValue<K extends keyof HTMLElementTagNameMap>(
                 id: Matcher,
                 options?: MatcherOptions,
-            ): Chainable<Array<HTMLElementTagNameMap[K]>>;
+            ): Chainable<JQuery<HTMLElementTagNameMap[K]>>;
 
             /**
              * dom-testing-library helpers for Cypress
@@ -633,11 +633,11 @@ declare global {
              * @see https://github.com/testing-library/cypress-testing-library#usage
              * @see https://github.com/testing-library/dom-testing-library#table-of-contents
              */
-            getAllByRole(id: Matcher, options?: MatcherOptions): Chainable<HTMLElement[]>;
+            getAllByRole(id: Matcher, options?: MatcherOptions): Chainable<JQuery<HTMLElement>>;
             getAllByRole<K extends keyof HTMLElementTagNameMap>(
                 id: Matcher,
                 options?: MatcherOptions,
-            ): Chainable<Array<HTMLElementTagNameMap[K]>>;
+            ): Chainable<JQuery<HTMLElementTagNameMap[K]>>;
         }
     }
 }
