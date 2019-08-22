@@ -18,7 +18,7 @@ import {
 
 export interface CTLMatcherOptions {
     timeout?: number;
-    container?: HTMLElement | JQuery<HTMLElement>;
+    container?: HTMLElement | JQuery;
 }
 
 export type MatcherOptions = DTLMatcherOptions | CTLMatcherOptions;
