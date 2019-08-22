@@ -43,3 +43,10 @@ cy.queryAllByTestId('foo'); // $ExpectType Chainable<JQuery<HTMLElement>>
 cy.queryAllByTitle('foo'); // $ExpectType Chainable<JQuery<HTMLElement>>
 cy.queryAllByDisplayValue('foo'); // $ExpectType Chainable<JQuery<HTMLElement>>
 cy.queryAllByRole('foo'); // $ExpectType Chainable<JQuery<HTMLElement>>
+
+// with container option
+const container = document.createElement('div');
+cy.queryAllByRole('foo', { container }); // $ExpectType Chainable<JQuery<HTMLElement>>
+
+const $container = cy.$$('body').append('div');
+cy.queryAllByRole('foo', { container: $container }); // $ExpectType Chainable<JQuery<HTMLElement>>
